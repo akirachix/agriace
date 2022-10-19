@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+*{
+  font-family: sans-serif;
+
+}
+
+ .App{
+  overflow-x: hidden;
+
+ }
+ ul h2{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+    color: green;
+    margin-top: 30px;
+  }
+  #contat{
+    margin-left: 850px;
+    margin-top: -3%;
+  }
+  #serves{
+    margin-left: 500px;
+    margin-top: 40px;
+  }
+  #abouts{
+    margin-left: 200px;
+    margin-bottom: -5%;
+   
+  }
+  .ul{
+    margin-top: -10;
+  }
+  .topnav h2 {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 00px;
+  }
+  h2:hover{
+    border-radius: 4px;
+    transition: all 0.2s ease-out ;
+    padding: 4px;
+  }
+  .logo{
+    margin-top: -4%;
+    width: 130px;
+    margin-right: 900px;
+  }
+  
+  .login{
+    color: white;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-left: 900px;
+    margin-top: -150%;
+    background: rgb(33, 221, 58);
+    font-size: 20px;
+    text-decoration: none;
+  }
+ 
+  .Contact{
+    height: 800px;
+    margin-top: 800px;
+  }
+  .contacts{
+    margin-top: -26%;
+    margin-right: 700px;
+  }
+
+ 
+  
+
+.seed{
+    margin-left: 600px;
+    width: 500px;
+    height: 400px;
+    margin-top:10px;
+}
+.about{
+    margin-left: 100px;
+    margin-top: -32%;
+    text-align: left;
+}
+.about h2{
+    color: rgb(12, 134, 12);
+    margin-right: 1000px;
+    font-size: 40px;
+   
+}
+.popabout{
+  background-color: rgb(14, 39, 4);
+  border-radius: 20px;
+  padding: 50px;
+  color: white;
+}
+button{
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 10px 40px;
+    border: none;
+}
+
+/* SERVICES */
+ 
+.cardone{
+    background: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9;
+
+}
+
+.cardtwo{
+    align-items: center;
+    place-items: center;
+    background: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9;
+    border-radius: 20px;
+    
+}
+.cardone p{
+  margin-left: 25px;
+}
+.cardtwo p {
+  margin-left: 25px;
+
+}
+.cardtwo img{
+  width: 80px;
+  margin-top: 30px;
+}
+.cardthree p{
+  margin-left: 30px;
+}
+.cardthree img{
+  width: 80px;
+
+}
+.cardfour p{
+  margin-left: 30px;
+}
+.cardfour img{
+  width: 80px;
+
+
+}
+.cardone img{
+  width: 80px;
+}
+.cardthree{
+    background: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9;
+    border-radius: 20px;
+
+}.cardfour{
+    background: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9;
+    border-radius: 20px;
+}
+
+.btns{
+    background-color:green;
+    padding-left:35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom:7px ;
+    margin-left: 13px;
+    margin-top: -1%
+
+}
+.popup1{
+  background-color: rgb(7, 36, 4);
+  color: white;
+  border-radius: 20px;
+}
+.btn2{
+    background-color:green;
+    padding-left:35px;
+    padding-top: 7px;
+    padding-right: 35px;
+    padding-bottom:7px ;
+    margin-left: 13px;
+    margin-top: -0.1%;
+
+}
+.popup2{
+  background-color: rgb(18, 53, 5);
+  color: white;
+  border-radius: 20px;
+ 
+}
+.btn3{
+    background-color:green;
+    padding-left:35px;
+    padding-top: 7px;
+    padding-right: 35px;
+    padding-bottom:7px ;
+    margin-left: 15px;
+    margin-top: -3%;
+
+}
+.popup3{
+  background-color: rgb(9, 63, 5);
+  color: white;
+  border-radius: 20px;
+  
+}
+.btn4{
+    background-color:green;
+    padding-left:35px;
+    padding-top: 7px;
+    padding-right: 35px;
+    padding-bottom:7px ;
+    margin-left: 15px;
+    margin-top: -3%;
+}
+.popup4{
+  background-color: rgb(28, 68, 5);
+  color: white;
+  border-radius: 20px;
+
+}
+.cards{
+  margin-top: 70px;
+    display: flex;
+    align-items: center;
+    grid-gap: 40px;
+    margin-left: 200px;
+}
+
+.services{
+    height: 600px;
+
+  }
+.services{
+    margin-top: 140px;
+    margin-right: 200px;
+}
+.services h4{
+  margin-right:680px ;
+  color: rgb(2, 2, 2);
+  font-size: 30px;
+  
+}
+
+.techno{
+   margin-left: 400px;
+   margin-top: 200px;
+   color: white;
+}
+
+.technology{
+    background: green;
+    height: 250px;
+    width: 1150px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: -28%;
+}
+.technlogy{
+    border-radius: 20px;
+    margin-right: 750px;
+    margin-top: -9.5%;
+    width: 280px;
+    height: 200px;
+}
+
+/* HOW TO ORDER SEEDS */
+.Steps{
+margin-right: 100px;
+margin-top: 100px;
+
+  }
+  .Steps h1{
+    color: green;
+    /* text-align: center; */
+    margin-left:100px ;
+  }
+.steps{
+    background: white;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;}
+.pn1{
+    width:120px;
+}
+    .steps p{
+    margin-top:40px;
+}    
+.step2{
+    background: white;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+
+}
+.pn2{
+    width:120px;
+}
+    .step2 p{
+    margin-top:40px;
+}
+.order_seeds{
+    display: flex;
+    grid-gap:230px;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.pn3{
+    width:120px;
+}
+    .step3 p{
+    margin-top:40px;
+}
+.step3{
+    background: white;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+    margin-top: -30px;
+}
+.pn4{
+    width:120px;
+}
+    .step4 p{
+    margin-top:40px;
+}
+.step4{
+    background: white;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9 ;
+    margin-top: -30px;
+
+}
+.order_seed2{
+    display: flex;
+    grid-gap:230px;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+
+/* contact us */
+.designs{
+    margin-top: 100px;
+    width: 1300px;
+    height: 400px;
+}
+
+.contacts h1{
+    margin-top: -29%;
+    margin-left: 50px;
+}
+#names{
+    border-radius: 20px;
+    padding: 10px 20px 10px 40px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+    border: none;
+    width:300px;
+}
+#email{
+    border-radius: 20px;
+    padding: 10px 20px 10px 40px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+    border: none;
+    width:300px;
+    
+}
+#phoneNumbers{
+    border-radius: 20px;
+    padding: 10px 20px 10px 40px;
+    box-shadow: 5px 5px 5px 5px #d6d5d5;
+    border: none;
+    width:300px;
+}
+#message{
+    border-radius: 20px;
+    padding: 10px 20px 80px 40px;
+    box-shadow: 5px 5px 5px 5px #d3d1d1;
+    border: none;
+    width:300px;
+}
+.send{
+    background-color: green;
+    border-radius: 20px;
+    padding-left:35px;
+    padding-top: 3px;
+    padding-right: 35px;
+    padding-bottom:3px ;
+    margin-left: 200px;
+}
+
+
+/* FOOTER */
+.footer{
+    background: green;
+    height: 130px;
+    width: 1300px;
+    margin-top: -9%;
+   
+}
+.location{
+    margin-left: 800px;
+    margin-top: -9%;
+    color: white;
+}
+.location h3 {
+    margin-top: -15%;
+}
+.contacts_footer{
+    margin-right:900px;
+    margin-top: 180px;
+    color: white;
+}
+.contacts_footer h3{
+    margin-left: 30px;
+    margin-top: 200px;
+    
+}
+
+.mapouter
+    {position:relative;
+    text-align:right;
+    margin-left: 600px;
+    margin-top: -32%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;width:600px;}
+
+    .map {
+        margin-left: 600px;
+        margin-top: -32%;
+        }
+
+        .top-btn-position{
+            position: fixed;
+            bottom: 15px;
+            right: 20px;
+          }
+          .top-btn-position{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid rgb(81, 83, 81);
+            background-color: white;
+            color: rgb(18, 245, 18);
+            cursor: pointer;
+          }
+          .top-btn-position:hover{
+            animation: none;
+            background-color: #333;
+            color: white;
+          }
