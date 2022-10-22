@@ -30,7 +30,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'b5ea-105-54-103-47.in.ngrok.io/',
+    '68b7-197-232-143-191.in.ngrok.io',
 ]
 
 
@@ -47,7 +47,6 @@ INSTALLED_APPS = [
     'smsApp',
     'apis',
     'rest_framework',
-    'farmersdashboard'
 ]
 
 MIDDLEWARE = [

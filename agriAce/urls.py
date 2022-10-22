@@ -23,7 +23,9 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('agriApp.urls'))
+    path('',include('agriApp.urls')),
+    path('',include('apis.urls')),
+    path('',include('smsapi.urls')),
 ]
 
 
