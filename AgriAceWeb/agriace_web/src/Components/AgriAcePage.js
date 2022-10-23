@@ -57,7 +57,7 @@ function App() {
           <h2 onClick={()=> scrollToSection(contact)} id='contat'>Contact Us</h2>
           <img src={image} alt='./AgriAceLgo.png' className='logo'></img>
 
-          <button className="login"><a href="/signup">Login</a></button>
+          <button className="login"><a href="/Login">Login</a></button>
 
         </ul>
         <img src={seed} alt='./SEEDS.png' className='seed'></img>
@@ -260,7 +260,8 @@ function App() {
                 <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=karen&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
        </div>
-         
+       </div>
+
 
             </div>
             {/* FOOTER */}
@@ -284,7 +285,6 @@ function App() {
       </div>
 
       
-     </div>
   );
 };
 

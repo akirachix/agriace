@@ -3,9 +3,22 @@
   font-family: sans-serif;
 
 }
+/* @media screen and (max-width: 1068px) {
+  .App {
+    flex-direction: column;
+  }
+} */
+
+/* @media only screen and (min-width: 1024px) {
+} */
+@media only screen and (min-width: 224px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
+  }
+}
 
  .App{
-  overflow-x: hidden;
+  overflow-y: hidden;
 
  }
  ul h2{
@@ -53,7 +66,7 @@
   .login{
     color: white;
     border-radius: 20px;
-    padding: 10px 40px;
+    padding : 10px 40px;
     margin-left: 900px;
     margin-top: -150%;
     background: rgb(33, 221, 58);
@@ -83,6 +96,8 @@
     margin-left: 100px;
     margin-top: -32%;
     text-align: left;
+    line-height: 2pc;
+    
 }
 .about h2{
     color: rgb(12, 134, 12);
@@ -109,13 +124,15 @@ button{
 /* SERVICES */
  
 .cardone{
-    background: white;
-    width: 300px;
-    height: 200px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 10px #dbd9d9;
-
+  align-items: center;
+  place-items: center;
+  background: white;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+  
 }
 
 .cardtwo{
@@ -130,28 +147,33 @@ button{
     
 }
 .cardone p{
-  margin-left: 25px;
+  margin-left: 1px;
+  margin-top: 38px;
 }
 .cardtwo p {
-  margin-left: 25px;
+  margin-left: 1px;
 
 }
 .cardtwo img{
   width: 80px;
-  margin-top: 30px;
+  margin-top: 3px;
 }
 .cardthree p{
-  margin-left: 30px;
+  margin-left: px;
+  margin-top: 30px;
+
 }
 .cardthree img{
   width: 80px;
 
 }
 .cardfour p{
-  margin-left: 30px;
+  margin-top: 45px;
+  margin-left:1px ;
 }
 .cardfour img{
-  width: 80px;
+  width: 100px;
+  margin-bottom: -10%;
 
 
 }
@@ -159,13 +181,15 @@ button{
   width: 80px;
 }
 .cardthree{
-    background: white;
-    width: 300px;
-    height: 200px;
-    padding: 10px;
-    box-shadow: 5px 5px 5px 10px #dbd9d9;
-    border-radius: 20px;
-
+  align-items: center;
+  place-items: center;
+  background: white;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+   
 }.cardfour{
     background: white;
     width: 300px;
@@ -176,13 +200,13 @@ button{
 }
 
 .btns{
-    background-color:green;
-    padding-left:35px;
-    padding-right: 35px;
-    padding-top: 7px;
-    padding-bottom:7px ;
-    margin-left: 13px;
-    margin-top: -1%
+  background-color:green;
+  padding-left:35px;
+  padding-top: 7px;
+  padding-right: 35px;
+  padding-bottom:7px ;
+  margin-left: 8px;
+  margin-top: -0.1%;
 
 }
 .popup1{
@@ -196,7 +220,7 @@ button{
     padding-top: 7px;
     padding-right: 35px;
     padding-bottom:7px ;
-    margin-left: 13px;
+    margin-left: 8px;
     margin-top: -0.1%;
 
 }
@@ -228,7 +252,7 @@ button{
     padding-top: 7px;
     padding-right: 35px;
     padding-bottom:7px ;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: -3%;
 }
 .popup4{
@@ -263,7 +287,12 @@ button{
 .techno{
    margin-left: 400px;
    margin-top: 200px;
-   color: white;
+   color: rgb(252, 249, 249);
+   padding-top: 50px;
+}
+.techno p{
+  font-size: 17px;
+  line-height: 1pc;
 }
 
 .technology{
@@ -276,8 +305,8 @@ button{
 }
 .technlogy{
     border-radius: 20px;
-    margin-right: 750px;
-    margin-top: -9.5%;
+    margin-right: 700px;
+    margin-top: -25.5%;
     width: 280px;
     height: 200px;
 }

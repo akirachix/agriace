@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Login.css';
-// import axios from 'axios'
 import {useNavigate} from 'react-router-dom'
+
 
 
 function Login () {
@@ -63,7 +63,10 @@ return (
 
           <button className="button" type="submit" onClick = { (e) => handleSubmit(e)}>Login</button>
 
-          <p>You want to go back home?
+          <p>Don't have an account?
+           <a href="./SignUp">SignUp</a>
+          </p>
+          <p>Go back to ?
            <a href="/">Home</a>
           </p>
 
