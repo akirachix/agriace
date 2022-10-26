@@ -144,18 +144,18 @@ from africastalking.Service import AfricasTalkingException
 import africastalking
 class SMS:
     def __init__(self):
-        self.username = "agriace"
+        self.username = "sandbox"
         self.api_key = "6aa2557c2b30a330d9ca8d6fc1a13e946b7126c249ebc21ec9033a79500cf491"
         # Initialize the SDK
         africastalking.initialize(self.username, self.api_key)
         # Get the SMS service
         self.sms = africastalking.SMS
     def send(self):
-        recipients = ["+256787955445"]
+        recipients = ["+254796715990"]
         # Set your message
         message ='Hello Farmer, Welcome to AgriAce! Press 1 to Order Seeds';
         # Set your shortCode or senderId
-        # sender = "4632"
+        # sender = "5577"
         try:
             response = self.sms.send(message, recipients)
             print (response)
