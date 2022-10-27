@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Login.css';
-// import axios from 'axios'
+import './AgriAcePage';
+ import axios from 'axios'
 import {useNavigate} from 'react-router-dom'
 
 
@@ -26,12 +27,15 @@ function Login () {
         event.preventDefault()
          const {name,email,location}=userDetails
         console.log("name");
+        
         if (name&&email&&location){
             try {
-                // const response=await axios.post("http://127.0.0.1:8000/user/",userDetails )
+            //  const response=await axios.post("http://127.0.0.1:8000/",userDetails )
+
+                
                 navigate('/')
             } catch (error) {
-                // console.log(error)
+                //  console.log(error)
             }
         }
         else{
@@ -64,7 +68,8 @@ return (
           <button className="button" type="submit" onClick = { (e) => handleSubmit(e)}>Login</button>
 
           <p>You want to go back home?
-           <a href="/">Home</a>
+           <a href="/index.html">Home</a>
+
           </p>
 
          
