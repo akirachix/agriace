@@ -13,10 +13,11 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 import os
 import django_heroku
-django_heroku.settings(locals())
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+print ("base dir path", BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -86,12 +87,12 @@ WSGI_APPLICATION = 'agriAce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 DATABASES = {
     'default': {
@@ -138,9 +139,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.11/howto/static-files/    
+
 
 STATIC_URL = '/static/'
-os.path.join(BASE_DIR, 'static'),
+# os.path.join(BASE_DIR, 'static'),
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -151,3 +155,4 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+django_heroku.settings(locals())
