@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'smsApp',
     'apis',
     'rest_framework',
-    # 'farmersdashboard'
+
 ]
 
 MIDDLEWARE = [
