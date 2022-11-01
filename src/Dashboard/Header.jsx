@@ -9,7 +9,7 @@ const Header = () => {
 <div class="sidebar-header">
 
     <div class="Welcome">
-        <h1>Welcome to AgriAce Dashboard</h1>
+        <h1>Dashboard</h1>
     </div>
 
     <div class="searchBar">

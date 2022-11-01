@@ -142,9 +142,10 @@ ul a  {
   
   }
 
-.Welcome{
-  margin-left: 10%;
-  text-align:left;
+.Welcome h1{
+  color: rgb(6, 6, 6);
+  margin-top: 20px;
+  font-size: 40px;
 }
 
 
@@ -437,5 +438,15 @@ table thead tr{
   background: #4AD489;
   color: #fff;
   transition: 0.5rem;
-}
 
+
+
+}
+.charts{
+
+  margin-top: -2%;
+  margin-top: 30px;
+  margin-left: 100px;
+
+
+}

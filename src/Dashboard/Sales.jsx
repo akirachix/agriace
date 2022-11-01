@@ -12,57 +12,58 @@ import {
 // Sample chart data
 const pdata = [
 	{
-		name: 'MongoDb',
-		student: 11,
-		fees: 120
-	},
-	{
-		name: 'Javascript',
-		student: 15,
-		fees: 12
-	},
-	{
-		name: 'PHP',
-		student: 5,
-		fees: 10
-	},
-	{
-		name: 'Java',
-		student: 10,
-		fees: 5
-	},
-	{
-		name: 'C#',
-		student: 9,
-		fees: 4
-	},
-	{
-		name: 'C++',
-		student: 10,
-		fees: 8
-	},
+        day: 'Monday',
+        Ksh: 11,
+        Amount: 120
+    },
+    {
+        day: 'Tuesday',
+        Ksh: 15,
+        Amount: 12
+    },
+    {
+        day: 'Wednesday',
+        Ksh: 5,
+        Amount: 10
+    },
+    {
+        name: 'Thursday',
+        Amount: 10,
+        Ksh: 5
+    },
+    {
+        day: 'Friday',
+        Ksh: 9,
+        Amount: 4
+    },
+    {
+        day: 'Sunday',
+        Ksh: 10,
+        Amount: 8
+    },
+	
 ];
 
 function Sales() {
 	return (
 		<>
 			<h1 className="text-heading">
-				Line Chart Using Rechart
+				Sales
 			</h1>
 			<ResponsiveContainer width="100%" aspect={3}>
-				<LineChart data={pdata} margin={{ right: 300 }}>
-					<CartesianGrid />
-					<XAxis dataKey="name"
-						interval={'preserveStartEnd'} />
-					<YAxis></YAxis>
-					<Legend />
-					<Tooltip />
-					<Line dataKey="student"
-						stroke="black" activeDot={{ r: 8 }} />
-					<Line dataKey="fees"
-						stroke="red" activeDot={{ r: 8 }} />
-				</LineChart>
-			</ResponsiveContainer>
+                <LineChart data={pdata} margin={{ right: 300 }}>
+                    <CartesianGrid />
+                    <XAxis dataKey="day" 
+                        interval={'preserveStartEnd'} />
+                    <YAxis></YAxis>
+                    <Legend />
+                    <Tooltip />
+                    <Line dataKey="Ksh"
+                        stroke="black" activeDot={{ r: 8 }} />
+                    <Line dataKey="Amount"
+                        stroke="green" activeDot={{ r: 8 }} />
+                </LineChart>
+            </ResponsiveContainer>
 		</>
 	);
 }

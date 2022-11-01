@@ -11,15 +11,17 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Layout/>} >
+         <Route path='/' element={<Layout/>} >
           <Route path='/dash' element={<Dash/>} />
           <Route path='/orders' element={<Orders/>} />
           <Route path='/sales' element={<Sales/>} />
           <Route path='/customers' element={<Customers/>} />
-          <Route path ='/board' element={<Board/>} />
+          <Route index path='/board' element={<Board/>} />
           </Route>
       </Routes>
     </BrowserRouter>
+       
   );
+  
 }
 export default App;
