@@ -1,72 +1,60 @@
 import '../App.css'
+import './Sidebar'
+import React, { useEffect, useState } from 'react';
+import axios from 'axios'
 
-const Orders= () => { 
-    return(  
 
+      function Orders() {
+        const [, setIsLoading] = useState(false);
+        const [, setError] = useState();
+        const [users, setOrders] = useState([]);
+        useEffect(()=>{
+          getOrders()
+          console.log('customers')
+        },[]);
+        const getOrders =() => {
+          console.log('hhhhh')
+            axios.get( "https://morning-meadow-48263.herokuapp.com/seeds/")
+            .then(res=>{
+              console.log(res.data)
+              setOrders(res.data)
+            })
+        };
+        return(   
         <section class="orders">
             <div class="orders-list">
               <table class="table">
                 <thead>
                   <tr>
                     <th>Company</th>
-                    <th>Contact</th>
-                    <th>Order ID</th>
+                    <th>Cost</th>
+                    <th>Quantity</th>
+                    <th>Varietyr</th>
                     <th>Status</th>
+
                   </tr>
+
                 </thead>
+                {users.map(item => {
+          return (
                 <tbody>
-                  <tr>
-                    <td>Syngenta</td>
-                    <td>0789003456</td>
-                    <td>123OD</td>
+                  <tr class = 'active'>
+                    <td>{item.company}</td>
+                    <td>{item.cost}</td>
+                    <td>{item.quantity}</td>
+                    <td>{item.seed_variety}</td>
                     <td><button>Pending</button></td>
                   </tr>
-                  <tr class="active">
-                    <td>ADC Molo</td>
-                    <td>0789003400</td>
-                    <td>123PL</td>
-                    <td><button>Approved</button></td>
-                  </tr>
-                  <tr>
-                    <td>Fresh Crop</td>
-                    <td>0789007756</td>
-                    <td>T123ED</td>
-                    <td><button>Pending</button></td>
-                  </tr>
-                  <tr>
-                    <td>Kisima</td>
-                    <td>0719000456</td>
-                    <td>D123ED</td>
-                    <td><button>Pending</button></td>
-                  </tr>
-                  <tr>
-                    <td>Syngenta</td>
-                    <td>0789003456</td>
-                    <td>123OD</td>
-                    <td><button>Pending</button></td>
-                  </tr>
-                  <tr class="active">
-                    <td>ADC Molo</td>
-                    <td>0789003400</td>
-                    <td>123PL</td>
-                    <td><button>Approved</button></td>
-                  </tr>
-                  <tr>
-                    <td>Fresh Crop</td>
-                    <td>0789007756</td>
-                    <td>T123ED</td>
-                    <td><button>Pending</button></td>
-                  </tr>
-                  <tr>
-                    <td>Kisima</td>
-                    <td>0719000456</td>
-                    <td>D123ED</td>
-                    <td><button>Pending</button></td>
-                  </tr>
+                 
+            
                 
                 </tbody>
+)
+})}
+
               </table>
             </div>
+
           </section>
         
     ) 
