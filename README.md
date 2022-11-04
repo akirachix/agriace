@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+## AGRIACE
+### About
+This project is a Two Way SMS platform that aims at solving for poor access of certified potato seeds by small-scale potato farmers in Kenya, in order to increse their yields. The platform will help farmers purchase certified potato seeds by filtering the certified seed companies around the farmers' using their locations, making it easy for farmers to orders certified potato seeds.
+###  Users of the platform
+The platform is used by small-scale potato farmers.
+>>>>>>> f3a5e172496d3710fb7af2bea54aad98025f11d6
