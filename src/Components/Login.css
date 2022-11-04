@@ -1,0 +1,95 @@
+.background{
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+  
+}
+.Background{
+    margin-top: -8%;
+    padding-top: 9%;
+    align-items: center;
+}
+.Login{
+    font-size: 27px;
+    color: #fff;
+}
+#name{
+    margin-right: 300px;
+}
+input{
+    width: 64%;
+    border-radius: 10px;
+    border: none;
+    height: 37px;
+    padding-left: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #4e504e;
+
+}
+.Login h2{
+    margin-left: 170px;
+}
+.AgriAce{
+    margin-left: 140px;
+}
+.AgriAce p{
+    margin-left: 120px;
+}
+
+
+.button{
+    color: white;
+    background-color:#51ec0e;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    width: 33%;
+    height: 45px;
+    margin-top: 3%;
+    margin-left: 20%;
+
+}
+label{
+    text-align: left;
+}
+
+.formbackground{
+    display: flex;
+}
+.form{
+    background-color: #2f8415;
+    width: 50%;
+    border-radius: 20px;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+}
+p{
+    padding: 5px;
+    margin-right: 100px;
+}
+#home{
+    margin-right: 200px;
+}
+.btn{
+    background-color: #0af40a;
+    margin-left: 100px;
+    margin-top: -0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
